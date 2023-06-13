@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+  background-color: #F55A5A;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.navbar h3 {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  margin-left: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  color: #2B283A;
+}
+
+.card {
+  height: 168px;
+  margin: 18px 0;
+}
+
+.line {
+  border-bottom: 1px solid #F5F5F5;
+}
+
+.image {
+  height: 168px;
+  width: 125px;
+  border-radius: 5px;
+  float: left;
+  margin-right: 20px;
+}
+
+.location {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+}
+
+.location::before {
+  content: url("./path.png");
+  margin-right: 5px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.link a {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918E9B;
+  margin-left: 12px;
+}
+
+.date {
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 12px;
+}
+
+.description {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+}
