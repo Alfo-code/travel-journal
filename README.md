@@ -8,8 +8,8 @@ Solo projects are meant to challenge the skills you've learnt so far through the
 - HTML5
 - CSS3
 - [React](https://reactjs.org/) - JS library
-- npm
-- Vite
+- npm - Vite
+- Mobile-first workflow
 - Figma design files from Scrimba
 
 ## Live URL
